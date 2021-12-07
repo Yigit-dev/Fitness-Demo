@@ -1,0 +1,14 @@
+export { default as ArrowDown } from "./ArrowDown";
+export { default as Back } from "./Back";
+export { default as Bell } from "./Bell";
+export { default as Call } from "./Call";
+export { default as CircleBack } from "./CircleBack";
+export { default as Flame } from "./Flame";
+export { default as Home } from "./Home";
+export { default as Menu } from "./Menu";
+export { default as Options } from "./Options";
+export { default as Play } from "./Play";
+export { default as Profile } from "./Profile";
+export { default as Search } from "./Search";
+export { default as Settings } from "./Settings";
+export { default as ArrowRight } from "./ArrowRight";
