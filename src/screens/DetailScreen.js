@@ -67,7 +67,6 @@ const DetailScreen = ({ route }) => {
         {TRAINING_DATA.map((item) => (
           <TrainingCard key={item.id} item={item} />
         ))}
-        <View pt={70} />
       </DetailContainer>
     </View>
   );

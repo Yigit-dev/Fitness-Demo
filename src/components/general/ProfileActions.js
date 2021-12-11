@@ -5,10 +5,10 @@ import { Subtitle } from "../text";
 import ProfileActionCard from "./ProfileActionCard";
 import UpgradePremium from "./UpgradePremium";
 
-const ProfileActions = () => {
+const ProfileActions = ({ navigation }) => {
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
-      <ProfileActionCard action="Edit Profile" />
+      <ProfileActionCard action="Profile Detail" navigation={navigation} />
       <ProfileActionCard action="Privacy Policy" />
       <ProfileActionCard action="Settings" />
       <UpgradePremium />

@@ -9,7 +9,7 @@ const ProfileScreen = ({ navigation }) => {
   return (
     <LayoutContainer>
       <Profile />
-      <ProfileActions />
+      <ProfileActions navigation={navigation} />
     </LayoutContainer>
   );
 };

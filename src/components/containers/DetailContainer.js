@@ -16,6 +16,7 @@ const DetailContainer = ({ children, ...props }) => {
       {...props}
     >
       {children}
+      <View pt={70} />
     </View>
   );
 };

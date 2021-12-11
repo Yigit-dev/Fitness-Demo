@@ -1,0 +1,25 @@
+export const PROFILE_DATA = {
+  id: 1,
+  background: require("../../assets/avatar.jpg"),
+  video: require("../../assets/video.mp4"),
+  name: "Julia",
+  surname: "Doe",
+  age: "23 year 4 month",
+  height: 175,
+  weight: 65,
+  position: "",
+  branch: "Tenis",
+  city: "Izmir",
+  note: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem culpa necessitatibus animi, laudantium accusantium nam, earum",
+  school: {
+    highschool: "Vecdi Gönül Anadolu Lisesi",
+    university: "Dokuz Eylül Üniversitesi",
+    graduation: 2020,
+  },
+  coach: {
+    name: "Yiğit",
+    surname: "Çakmak",
+    avatar: require("../../assets/avatar.jpg"),
+    mail: "yigitcakmakx@gmail.com",
+  },
+};

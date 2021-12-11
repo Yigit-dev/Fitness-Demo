@@ -1,5 +1,5 @@
 import React from "react";
-import { NavigatorIOS, ScrollView } from "react-native";
+import { ScrollView } from "react-native";
 import { SLIDER_DATA } from "../../data/SLIDER";
 import { SLIDER2_DATA } from "../../data/SLIDER2";
 import { View } from "../base";
